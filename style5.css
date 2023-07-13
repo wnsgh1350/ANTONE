@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'SUIT', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#header {
+    width: 100%;
+    background-color: #929685;
+    position: relative;
+}
+
+
+.header_inner {
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+
+.go li {
+    padding: 30px 25px;
+}
+
+.gnb li {
+    padding: 20px;
+}
+
+.header_inner ul {
+    display: flex;
+}
+
+.header_inner ol {
+    display: flex;
+}
+
+.go {
+    font-size: 20px;
+}
+
+.shop_inner {
+    background: url(Shop_images/categories/moon.jpg)no-repeat center top;
+    height: 316px;
+    color: #54341d;
+    font-weight: bold;
+}
+
+.shop_inner h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 180px;
+    padding-bottom: 30px;
+}
+
+.shop_inner ul {
+    margin: 0 auto;
+    width: 300px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.shop_inner li {
+    width: 25%;
+}
+
+#product {
+    background-color: #dfd7ce;
+    padding: 100px 0 100px;
+}
+
+.product_inner {
+    margin: 0 auto;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_img {
+    width: 660px;
+    margin: 0 auto;
+}
+
+.product_text {
+    width: 450px;
+    color: #54341d;
+}
+
+.product_text h3 {
+    padding-bottom: 10px;
+}
+
+.product_text p {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.product_text ul {
+    display: flex;
+}
+
+.product_text ul li {
+    margin: 0 auto;
+    width: 660px;
+}
+
+#info {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 300px;
+}
+
+#footer {
+    background-color: #595d4e;
+}
+
+.footer_inner li {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer_inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #dfd7ce;
+}

@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'SUIT', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#header {
+    width: 100%;
+    background-color: #929685;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+
+.header_inner {
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex
+}
+
+.go li {
+    padding: 30px 25px;
+}
+
+.gnb li {
+    padding: 20px;
+}
+
+.header_inner ul {
+    display: flex;
+}
+
+.header_inner ol {
+    display: flex;
+}
+
+.go {
+    font-size: 20px;
+}
+
+#main_banner {
+    position: relative;
+}
+
+
+#main_banner video {
+    width: 100%;
+}
+
+.btn {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+#best {
+    width: 100%;
+    background-color: #faf8f5;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.best_inner {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.best_inner ul {
+    justify-content: space-between;
+    display: flex;
+}
+
+#best h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    color: #54341d;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.best_inner li h3 {
+    font-size: 24px;
+    color: #54341d;
+    font-weight: 300;
+    padding: 20px 0px;
+}
+
+.best_inner li h4 {
+    color: #54341d;
+    font-weight: 600
+}
+
+.best_inner li {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.best_inner li p {
+    position: absolute;
+    right: -8px;
+    bottom: 5px;
+}
+
+#brand {
+    width: 100%;
+    height: 970px;
+    background-color: #dfd7ce;
+}
+
+#brand_inner {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#brand_inner ul {
+    display: flex;
+}
+
+.img1 {
+    margin: 0 auto;
+    background: url(./Main_images/4.brand/incense.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 720px;
+}
+
+.img2 {
+    margin: 0 auto;
+    background: url(./Main_images/4.brand/report.png);
+    background-repeat: no-repeat;
+    width: 662px;
+    height: 970px;
+}
+
+.img1:hover {
+    transition: 1s;
+    background-image: url(./Main_images/4.brand/candle.png);
+}
+
+#brand_inner li p {
+    padding-top: 550px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#review {
+    width: 100%;
+    background-color: #faf8f5;
+    padding-bottom: 100px;
+}
+
+#review h2 {
+    padding: 80px;
+    padding-left: 10px;
+    color: #54341d;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+#review_inner {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.review_name {
+    text-decoration: underline;
+}
+
+#review_inner img {
+    width: 100%;
+}
+
+#review_inner h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #54341d;
+}
+
+#review_inner p {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #54341d;
+}
+
+.box {
+    background-color: #dfd7ce;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#click {
+    width: 100%;
+    background-color: #929685;
+}
+
+
+.click_inner p {
+    padding-top: 15px;
+    color: #dfd7ce;
+}
+
+.click_inner {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.click_inner ul {
+    margin: 0 auto;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+    text-align: center;
+
+}
+
+#footer {
+    background-color: #595d4e;
+}
+
+.footer_inner li {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.best_art {
+    padding-bottom: 100px;
+}
+
+.footer_inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #dfd7ce;
+}

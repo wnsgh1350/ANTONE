@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'SUIT', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#header {
+    width: 100%;
+    background-color: #929685;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+
+.header_inner {
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex
+}
+
+.go li {
+    padding: 30px 25px;
+}
+
+.gnb li {
+    padding: 20px;
+}
+
+.header_inner ul {
+    display: flex;
+}
+
+.header_inner ol {
+    display: flex;
+}
+
+.go {
+    font-size: 20px;
+}
+
+.shop_inner {
+    background: url(Shop_images/categories/moon.jpg)no-repeat center top;
+    height: 316px;
+    color: #54341d;
+    font-weight: bold;
+}
+
+.shop_inner h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 180px;
+    padding-bottom: 30px;
+}
+
+#content {
+    background-color: #dfd7ce;
+    color: #54341d;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content_inner {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review {
+    text-align: center;
+}
+
+.review h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.open_event {
+    text-align: center;
+}
+
+.open_event h2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#click {
+    width: 100%;
+    background-color: #929685;
+}
+
+.click_inner p {
+    padding-top: 15px;
+    color: #dfd7ce;
+}
+
+.click_inner {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.click_inner ul {
+    margin: 0 auto;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+    text-align: center;
+
+}
+
+#footer {
+    background-color: #595d4e;
+}
+
+.footer_inner li {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer_inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #dfd7ce;
+}
